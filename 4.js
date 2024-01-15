@@ -18,4 +18,24 @@ console.log(sum(2, 6)); должно вывести число 8 в консол
 Демонстрировать работы функций не обязательно.
 */
 
-// Здесь пишем решение, данный комментарий необходимо стереть.
+function sum(num1, num2){
+    return num1 + num2;
+}
+
+function substract(num1, num2){
+    let result;
+    num1 > num2 ? result = num1 - num2 : result = num2 - num1;
+ return result;
+}
+
+function multiply(num1, num2){
+return num1 * num2;
+}
+
+function divide(num1, num2){
+return Math.round((num1 / num2) * 100) / 100;
+}
+//  console.log(sum(2, 4)); //6 2 8 0.5
+//  console.log(substract(2, 4));
+//  console.log(multiply(2, 4));
+//  console.log(divide(2, 4));
